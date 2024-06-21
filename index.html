@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .portfolio-item {
+            margin-bottom: 30px;
+        }
+
+        #home .bg-promary{
+            background-color: #40476d;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center" id="home">
+        <div class="container d-flex align-items-center flex-column ">
+            <h1 class="text-uppercase mb-0">Welcome to My Portfolio</h1>
+            <hr class="star-light">
+            <p class="font-weight-light mb-0">Web Developer - Graphic Artist - User Experience Designer</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light text-dark text-center">
+        <div class="container">
+            <h2 class="text-uppercase">About Me</h2>
+            <hr class="star-dark">
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p class="lead">I am a passionate web developer with experience in creating dynamic and responsive websites.</p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead">I love coding, designing, and bringing ideas to life in the digital space.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="text-center">
+        <div class="container">
+            <h2 class="text-uppercase">Portfolio</h2>
+            <hr class="star-primary">
+            <div class="row">
+                <div class="col-md-4 portfolio-item">
+                    <a class="portfolio-link" href="#">
+                        <img class="img-fluid" src="TIC TAC TOE.png" alt="">
+                    </a>
+                    <h4>Tic Tac Game</h4>
+                    <p class="text-muted">2 players game to time pass</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a class="portfolio-link" href="#">
+                        <img class="img-fluid" src="job portal.png" alt="">
+                    </a>
+                    <h4>Real estate web</h4>
+                    <p class="text-muted">to connect buyers and sellers </p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a class="portfolio-link" href="#">
+                        <img class="img-fluid" src="REAL.png" alt="">
+                    </a>
+                    <h4>Job Portal</h4>
+                    <p class="text-muted">To give a straight path to workers for finding job</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light text-dark text-center">
+        <div class="container">
+            <h2 class="text-uppercase">Contact Me</h2>
+            <hr class="star-dark">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required="required">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required="required">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required="required"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3" style="margin-top: 2rem;">
+        <div class="container" >
+            <p class="m-0">© 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
